@@ -1,0 +1,87 @@
+.background_img {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    background-image: url("background.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-position: center center;
+    -webkit-filter: blur(3px);
+}
+
+
+#center_box {
+  position: fixed;
+  top:50%;
+  left:50%;
+  margin-left: -300px;
+  margin-top:-200px;
+  height: 400px;
+  width: 600px;
+  border:solid 2px;
+  border-color:black;
+  background-color: white;
+
+}
+
+
+#wrapper {
+    -webkit-overflow-scrolling: touch;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    padding: 3.5rem 3.5rem 3.5rem 3.5rem;
+}
+
+#main {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    z-index: 1;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -moz-flex-grow: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-grow: 0;
+    flex-grow: 0;
+    -moz-flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-shrink: 0;
+    flex-shrink: 0;
+    text-align: left;
+    background-color: rgba(44,42,54,0.8);
+    box-shadow: 0rem 3rem 3.125rem 0rem rgba(44,42,54,0.451);
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    -moz-transition: opacity 1.25s ease 0s,-moz-transform 1.25s ease 0s;
+    -webkit-transition: opacity 1.25s ease 0s,-webkit-transform 1.25s ease 0s;
+    -ms-transition: opacity 1.25s ease 0s,-ms-transform 1.25s ease 0s;
+    transition: opacity 1.25s ease 0s,transform 1.25s ease 0s;
+}
